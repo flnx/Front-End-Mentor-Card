@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.15;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.65;
+  font-family: 'Red Hat Display', sans-serif;
+  background: url('/images/pattern-background-desktop.svg') repeat-x var(--primary);
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-style: none;
+  display: block;
+  max-width: 100%;
+}
+
+
+section {
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  max-width: 1440px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+

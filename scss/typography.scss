@@ -1,0 +1,29 @@
+a {
+    text-decoration: underline;
+}
+
+h1,
+h2 {
+    color: var(--darkblue);
+    font-weight: 900;
+    
+}
+
+h1 {
+    font-size: 1.65rem;
+    @media (max-width: 376px) {
+        font-size: 1.45rem;
+    }
+   
+}
+
+h2 {
+    font-size: 1rem;
+    @media (max-width: 376px) {
+        font-size: .91rem;
+    }
+}
+
+p {
+    color: var(--desaturated);
+}
